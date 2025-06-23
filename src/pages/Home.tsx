@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Alert from "./components/Alert";
-import Button from "./components/Button";
-import ListGroup from "./components/ListGroup";
+import Alert from "../components/Alert";
+import Button from "../components/Button";
+import ListGroup from "../components/ListGroup";
 
-function Home() {
+const Home = () => {
   let items = ["New York", "Tokyo", "Manchester", "Madrid"];
 
   const handleSelectItem = (item: string) => {
@@ -26,4 +26,4 @@ function Home() {
   );
 }
 
-export default App;
+export default Home;
